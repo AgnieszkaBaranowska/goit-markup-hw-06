@@ -757,3 +757,93 @@ fill: #757575;
     fill: #000;
 }
 
+/* FORMULARZ OKNA MODALNEGO*/
+.modal-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-top: 40px;
+}
+
+.xyz{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.aaa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #757575;
+    margin-top: 10px;
+    
+}
+.bbb{
+    width: 448px;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    margin-top: 4px;
+}
+
+
+
+.zzz{
+    width: 448px;
+    height: 120px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #757575;
+    margin-top: 4px;
+}
+.ccc{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+    
+}
+.regulations{   
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin: 0px;
+    margin-left: 8px;
+}
+.color{
+    color: #2196F3;
+}
+.link{
+    list-style: #2196F3;
+}
+
+.submit-button{
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
