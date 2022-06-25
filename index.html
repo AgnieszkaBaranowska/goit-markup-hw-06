@@ -433,8 +433,11 @@
           <p class="newsletter-title">Zapisz się do newslettera</p>
           <div class="newsletter">
           <label>
-            <input type="email" name="email" placeholder="E-mail" class="rrr"/></label>
-            <button type="submit" class="newsletter-button">Zapisz się</button>
+            <input type="email" name="email" placeholder="E-mail" class="input-mail"/></label>
+            <button type="submit" class="newsletter-button">Zapisz się
+              <svg class="newsletter-icon"><use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </div>
@@ -446,40 +449,38 @@
             <use href="./images/icons.svg#icon-close-icon"></use>
           </svg>
         </button>
-        <form>
+        <form class="form">
           <p class="modal-title">Zostaw swoje dane w formularzu poniżej</p>
           <div class="modal-box">
-          <label class="aaa">
+          <label class="label">
             Imie
-            <input type="text" name="username" class="bbb" placeholder=""> 
-          </input>
+            <input type="text" name="username" class="input"/>
           <svg class="modal-icon">
             <use href="./images/icons.svg#icon-person-black"></use>
           </svg>
           </label>
-          <label class="aaa">
+          <label class="label">
             Telefon
-            <input type="tel" name="phone_number" class="bbb" />
+            <input type="tel" name="phone_number" class="input" />
             <svg class="modal-icon">
               <use href="./images/icons.svg#icon-phone-black"></use>
             </svg>
           </label>
-          <label class="aaa">
+          <label class="label">
             Email
-            <input type="email" name="email" class="bbb" />
+            <input type="email" name="email" class="input" required />
             <svg class="modal-icon">
               <use href="./images/icons.svg#icon-email-black"></use>
             </svg>
           </label>        
-          <label class="aaa">
+          <label class="label">
             Komentarz
-            <textarea name="feedback" rows="5" placeholder="Wprowadź tekst" class="zzz"></textarea>
+            <textarea name="feedback" rows="5" placeholder="Wprowadź tekst" class="textarea"></textarea>
           </label>
-          <label class="ccc">
-            <input type="checkbox" name="" value=""   />
+          <label class="aaccept-contract">
+            <input type="checkbox" name="aaccept-contract"/>
            <p class="regulations"> Oświadczam iż akceptuję <a href="" class="link"><span class="color">Regulamin</span></a> i <a href="" class="link"><span class="color">Politykę Prywatności.</span></a>
-          </p></label>
-        
+          </p></label>        
           <button type="submit" class="submit-button">Wyślij</button>
           </div>
         </form>
