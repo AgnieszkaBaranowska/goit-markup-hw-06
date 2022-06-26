@@ -883,8 +883,6 @@ textarea:focus {
     fill: #2196F3;
 }
 
-
-
 .textarea{
     width: 448px;
     height: 120px;
@@ -896,19 +894,38 @@ textarea:focus {
     color: #757575;
     margin-top: 4px;
 }
-.approval-contract{
+
+.user-policy{
     display: flex;
     align-items: center;
     margin-top: 20px;    
 }
 
-.regulations{   
+.modal-form-poicy-text{   
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #757575;
     margin: 0px;
     margin-left: 8px;
+}
+
+.modal-form-poicy-text::before{
+    display: block;
+    content: "";
+    width: 16px;
+    height: 15px;
+    border: 1px solid #212121;
+    border-radius: 2px;
+}
+
+.modal-form-poicy:checked + .modal-form-poicy-text::before{
+    background-color:#2196F3;
+    border: none;
+    background-image: url(../images/Vector.svg);
+    background-position: 50% 50%; 
+    background-size: cover;
+    
 }
 .color{
     color: #2196F3;
