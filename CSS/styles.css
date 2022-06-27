@@ -911,21 +911,35 @@ textarea:focus {
 }
 
 .modal-form-poicy-text::before{
-    display: block;
+    display: inline-block;
     content: "";
     width: 16px;
     height: 15px;
-    border: 1px solid #212121;
+    outline: 1px solid #212121;
     border-radius: 2px;
+    margin-right: 9px;
 }
 
 .modal-form-poicy:checked + .modal-form-poicy-text::before{
     background-color:#2196F3;
-    border: none;
+    outline: 1px solid #2196F3;
+    border-radius: 2px;
     background-image: url(../images/Vector.svg);
-    background-position: 50% 50%; 
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    margin-right: 9px;
     
+}
+.visually-hidden{
+    position: absolute !important;
+    clip: rect(1px, 1px, 1px, 1px);
+    
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
 }
 .color{
     color: #2196F3;
